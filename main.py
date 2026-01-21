@@ -1,9 +1,6 @@
 from task1 import find_min_max
 from task2 import optimize_printing
 
-import sys
-sys.setrecursionlimit(2000)
-
 def test_task_1():
     print(find_min_max([3, 1]))                
     print(find_min_max([3, 5, 1, 8, 2, 7]))   
